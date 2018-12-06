@@ -1,4 +1,4 @@
-body{
+body {
 	width: 100%;
 	height: 100%;
 	margin: auto;
@@ -7,11 +7,12 @@ body{
     background-repeat: repeat-x repeat-y;
 }
 
-body p{
+body p {
 	font-size: 18px;
+	color: #777777;
 }
 
-a{
+a {
 	text-decoration: none;
 	color: #777777;
 	font-size:12px;
@@ -35,16 +36,17 @@ li a:hover {
 	border-bottom: 2px solid #cccccc;	
 }
 
-header{
+header {
 	position: relative;
 	float: left;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	
 	margin-left: 310px;
 	height: 60px;
 	width: 545px;	
 }
 
-header h1{
+header h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	position: relative;
     top: 0px;
     background-color: #4aaaa5;
@@ -71,7 +73,7 @@ nav li {
 .main-section{
 	width: 960px;
 	margin: 0 auto;
-	height: 800px;
+	height: 550px;
 	background-color: #ffffff;
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -93,26 +95,24 @@ nav li {
 	color: #4aaaa5;
 	border-bottom: 3px solid #cccccc;
 	margin-left: 50px;
-
 }
 
 .content{
 	width: 90%;
 	margin:auto;
 	margin-top: 20px;
-	height: 100%;
+	height: 600px;
 }
 
 .content p{
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: white;
 	font-size: 14px;
 	line-height: 2 ;
-
 }
+
  img{
  	float:left;
  	margin-right: 15px; 
+ 	margin-left: 5px;
  }
 
 input[type=text], textarea {
@@ -144,23 +144,19 @@ input[type=submit]:hover {
     position: relative;
     text-align: center;
     width:45%;
-    /*height: 300px;*/
     float: left;
     margin:10px 10px 10px 10px; 
 
 }
 .centered {
-	width: 200px;
+	width: 152px;
 	height: 50px;
 	background-color: #4aaaa5;
     position: absolute;
     top: 80%;
-    left: 26%;
-    transform: translate(-50%, -50%);
-}
-
-.centered p {
-	color: white;
+    left: 21%;
+    transform: translate(-51%, -50%);
+    color: white;
 	font-size: medium;
 }
 
@@ -168,7 +164,6 @@ footer{
 	border-top: 4px solid #4aaaa5;
 	height: 50px;
 	background-color: #666666;
-	position: relative;
 	bottom: 0;
 	width: 100%;
 	margin: auto;
