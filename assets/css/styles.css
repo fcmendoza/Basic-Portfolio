@@ -3,7 +3,7 @@ body {
 	height: 100%;
 	margin: auto;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	background-image: url("../images/light_grey.PNG");
+	background-image: url("../images/light_grey.png");
     background-repeat: repeat-x repeat-y;
 }
 
